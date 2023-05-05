@@ -9,4 +9,8 @@ COPY . .
 
 CMD ["python3", "e-doc-app.py"]
 
+ENV FLASK_APP=e-doc-app.py
+
 EXPOSE 5000
+
+CMD ["flask", "run", "--host", "0.0.0.0", "--port", "5000"]
