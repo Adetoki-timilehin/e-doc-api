@@ -18,7 +18,7 @@ def diagnose():
         else:
             inp.append(1)
 
-    df = pd.DataFrame(inp, col_values)
+    df = pd.DataFrame([inp], columns=col_values)
 
     diagnois = model.predict(df)
 
