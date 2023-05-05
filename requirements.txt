@@ -1,4 +1,4 @@
-joblib==1.0.1
+pip=23.1.2
 pandas==1.2.4
 Flask==1.1.2
 scikit-learn==1.2.1
