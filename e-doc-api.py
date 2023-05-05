@@ -20,9 +20,9 @@ def diagnose():
 
     df = pd.DataFrame([inp], columns=col_values)
 
-    diagnois = model.predict(df)
+    diagnosis = model.predict(df)
 
-    output = {'diagnosis': diagnois[0]}
+    output = {'diagnosis': diagnosis[0]}
     return jsonify(output)
 
     
